@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Amany için Sürpriz — Gratis</title>
+<style>
+  :root{
+    --bg:#fff7fb;
+    --accent:#ff5c93;
+    --accent-2:#ffb3c7;
+    --text:#2a2a2a;
+    --btn:#ff5c93;
+    --btn-text:#fff;
+  }
+  *{box-sizing:border-box}
+  html,body{height:100%}
+  body{
+    margin:0; background:radial-gradient(1200px 1200px at 80% -10%, #ffe3f0 10%, transparent 60%),
+                radial-gradient(900px 900px at -10% 100%, #ffe9f4 10%, transparent 60%),
+                var(--bg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+    color:var(--text); display:flex; align-items:center; justify-content:center; padding:24px;
+  }
+  .card{
+    width:min(480px, 94vw);
+    background:#fff; border-radius:24px; padding:28px;
+    box-shadow:0 20px 60px rgba(255,92,147,0.20);
+    position:relative; overflow:hidden;
+  }
+  .ribbon{
+    position:absolute; inset:auto -60px 16px auto; transform:rotate(-12deg);
+    background:linear-gradient(45deg, var(--accent), var(--accent-2));
+    color:white; padding:10px 24px; border-radius:999px; font-weight:700; font-size:13px; letter-spacing:.4px;
+    box-shadow:0 12px 28px rgba(255,92,147,.35);
+  }
+  h1{
+    margin:4px 0 8px; font-size:26px; line-height:1.2;
+  }
+  p.lead{
+    margin:0 0 18px; font-size:17px; line-height:1.55;
+  }
+  .media{
+    width:100%; aspect-ratio: 9 / 16; background:#ffe6ef; border:2px dashed #ffc1d6;
+    border-radius:16px; display:grid; place-items:center; color:#b04461; font-size:14px; padding:12px; margin:14px 0 18px;
+  }
+  .btn{
+    display:inline-block; width:100%; text-align:center; padding:14px 18px; border-radius:14px;
+    background:var(--btn); color:var(--btn-text); font-weight:700; text-decoration:none; font-size:16px;
+    box-shadow:0 10px 20px rgba(255,92,147,.35);
+    transition:transform .08s ease, filter .2s ease;
+  }
+  .btn:active{ transform:translateY(1px) scale(.99) }
+  .subtle{font-size:12px; opacity:.7; text-align:center; margin-top:10px}
+  .heart{
+    position:absolute; top:-40px; left:-40px; width:160px; height:160px; opacity:.1;
+    background: radial-gradient(circle at 30% 30%, #ff5c93 0 35%, transparent 36%),
+                radial-gradient(circle at 70% 30%, #ff5c93 0 35%, transparent 36%),
+                radial-gradient(circle at 50% 62%, #ff5c93 0 38%, transparent 39%);
+    filter: blur(2px);
+  }
+</style>
+</head>
+<body>
+  <main class="card">
+    <div class="heart"></div>
+    <div class="ribbon">Sürpriz 💖</div>
+    <h1>Güzel Karım Amany için, Aşkımla</h1>
+    <p class="lead">Ben orada olmasam da kalbim hep senin yanında. Bu sayfayı sadece senin için hazırladım. Biraz kendini şımartma zamanı 💕</p>
+    
+    <!-- FOTO/VIDEO ALANI -->
+    <div class="media">Buraya bizim fotoğrafımızı veya kısa videomuzu ekleyebilirsin. (img veya video tag)</div>
+    
+    <a class="btn" href="https://www.gratis.com/" target="_blank" rel="noopener">🎁 Alışverişe Git — Gratis</a>
+    <div class="subtle">Not: Butona tıklayınca resmi Gratis sitesine gidersin.</div>
+  </main>
+</body>
+</html>
